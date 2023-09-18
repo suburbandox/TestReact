@@ -2,13 +2,25 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
+import Card from "./papa"
+import Pets from "./pets"
+import Papa from "./mypapa"
+import ColorRenderer from './ColorRenderer'
+import Pops from "./papareader"
+
+
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
-    <h1>this is a test</h1>
+    {/* <App /> */}
+    <Card/>
+    <ColorRenderer/>
+    <Pets/>
+    <Papa/>
+    <Pops/>
+    {/* <h1>this is a test</h1> */}
   </React.StrictMode>
 );
 
